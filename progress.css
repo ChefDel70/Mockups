@@ -1,0 +1,39 @@
+
+
+.container_bars {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+.vertical {
+  display: inline-block;
+  width: 35px;
+  height: 10px;
+  -webkit-transform: rotate(-90deg); 
+  transform: rotate(-90deg);
+  margin: -11px;
+}
+.vertical {
+  box-shadow: inset 0px 4px 6px #ccc;
+}
+.progress-bar {
+  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
+
+.progress-bar {
+    background-color: #EAEDF1;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #EAEDF1;
+    text-align: center;
+    background-color: #58B8A6;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}

@@ -1,0 +1,354 @@
+ /*Background color*/
+
+ body {
+ 	background-color: #EAEDF1;
+ 	width: 1200px;
+ 	margin: 0 auto;
+ 	font-family: 'Signika', sans-serif;
+ }
+
+ .main_container {
+ 	padding: 75px;
+ }
+ .box {
+ 	background: white;
+ 	display: block;
+ }
+
+ .box img {
+ 	width: 100%;
+ }
+ .sections {
+ 	float: left;
+ 	width: 350px;
+ 	padding: 20px;
+ }
+
+ .sections img {
+ 	width: 100%;
+ }
+
+ /*Progress bars*/
+ .container_bars {
+ 	float: left;
+ }
+ .vertical {
+ 	display: inline-block;
+ 	width: 35px;
+ 	height: 10px;
+ 	-webkit-transform: rotate(-90deg); 
+ 	transform: rotate(-90deg);
+ 	margin: -11px;
+ }
+ .vertical {
+ 	box-shadow: inset 0px 4px 6px #ccc;
+ }
+ .progress-bar {
+ 	box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+ }
+
+ .progress-bar {
+ 	background-color: #C4C8CF
+ }
+ .progress-bar {
+ 	float: left;
+ 	width: 0;
+ 	height: 100%;
+ 	font-size: 12px;
+ 	line-height: 20px;
+ 	color: #EAEDF1;
+ 	text-align: center;
+ 	background-color: #58B8A6;
+ 	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+ 	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+ 	-webkit-transition: width .6s ease;
+ 	-o-transition: width .6s ease;
+ 	transition: width .6s ease;
+ 	border-radius: 2px;
+ }
+
+ .progress.vertical {
+    border-radius: 2px;
+}
+
+ .bars {
+ 	float: left;
+ }
+ .inquiries_per_year {
+ 	float: right;
+ }
+
+ .gross {
+ 	float: left;
+ }
+
+ .net {
+ 	float: right;
+ }
+
+ .indicators {
+ 	height: 140px;
+ }
+
+ hr {
+ 	display: block;
+ 	height: 1px;
+ 	border: 0;
+ 	border-top: 1px solid #ccc;
+ 	margin: 1em 0;
+ 	padding: 0;
+ }
+ div#revenue {
+ 	background-color: white;
+ }
+
+ .total_inqueries {
+ 	color: #58B8A6;
+ }
+
+ h3, h5, .last_year {
+ 	color: #C4C8CF;
+ }
+ /*end progress bars*/
+
+ /*Task Chart*/
+ .complete {
+ 	text-align: center;
+ 	padding: 10px;
+ 	background-color: #333A44;
+ }
+
+ p.task_completed {
+ 	color: #F0F0F2;
+ }
+
+ .task_footer {
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ .chart_button {
+ 	background-color: #FFFFFF;
+ 	height: 90px;
+ 	width: 117px;
+ }
+
+
+ .task_button {
+ 	background-color: #F9FAFC;
+ 	height: 90px;
+ 	width: 117px;
+ }
+
+ .event_button { 
+ 	background-color: #F9FAFC;
+ 	height: 90px;
+ 	width: 117px;
+ }
+
+ .chart_word {
+ 	text-align: center;
+ 	margin-top: 55px;
+ 	color: #ADE1ED;
+ }
+
+ .tasks_word {
+ 	text-align: center;
+ 	margin-top: 55px;
+ }
+
+ .event_word {
+ 	text-align: center;
+ 	margin-top: 55px;
+ }
+
+
+
+
+
+
+
+
+
+
+ /*End of Task Chart*/
+
+
+
+ /*Mailbox*/
+
+.mail_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail_display {
+	text-align: center;
+
+}
+
+.mail_box {
+    background-color: #333A44;
+}
+
+.inbox {
+	background-color: #9FA7B2;
+	color: #FFFFFF;
+}
+
+.starred {
+	background-color: #FFFFFF;
+}
+
+.flagged {
+	background-color: #FFFFFF;
+}
+
+.sent_mail {
+	background-color: #FFFFFF;
+}
+
+.deleted_mail {
+	background-color: #FFFFFF;
+}
+
+.more_button{
+	background-color: #FFFFFF;
+}
+
+p.inbox_display {
+	text-indent: 60px;
+	background-color: #9FA7B2;
+}
+
+p.starred_display {
+	text-indent: 60px;
+	background-color: #FFFFFF;
+	color: #9FA7B2;
+}
+
+p.flagged_display {
+	text-indent: 60px;
+	background-color: #FFFFFF;
+	color: #9FA7B2;
+}
+
+p.sent_display {
+	text-indent: 60px;
+	background-color: #FFFFFF;
+	color: #9FA7B2;
+}
+
+p.deleted_display {
+	text-indent: 60px;
+	background-color: #FFFFFF;
+	color: #9FA7B2;
+}
+
+p.more_display {
+	text-indent: 60px;
+	background-color: #FFFFFF;
+	color: #9FA7B2;
+}
+
+
+
+ /*End of Mailbox*/
+
+
+
+
+/*Login Bar Start*/
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    height: 41px;
+    width: 241px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #E37F46;
+    color: #FFFFFF;
+}
+
+input[type="password"], input[type="text"] {
+    width: 235px;
+    height: 40px;
+    margin-top: -1px;
+}
+
+
+
+
+/*Login Bar End*/
+
+
+/*Profile Start*/
+
+.profile_stats {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 330px;
+}
+
+.friend_likes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+p.name_template, p.location_template {
+    text-indent: 150px;
+}
+
+.pickbio_section {
+    height: 105px;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+/*Profile End*/
+
+/*Add Event Start */
+
+.events {
+	background-color: #FFFFFF;
+}
+
+
+/*Add Event End*/
+
+/*Time Clock Begin*/
+
+.timer {
+	background-color: #FFFFFF;
+}
+
+
+
+
+/*Time Clock End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
